@@ -39,18 +39,36 @@
 
 
 //ЗАДАЧА А
-Console.WriteLine();
-Console.WriteLine("Чётное или нечётное");
+// Console.WriteLine();
+// Console.WriteLine("Чётное или нечётное");
 
-Console.Write("Введите целое число: ");
-int number = int.Parse(Console.ReadLine());
+// Console.Write("Введите целое число: ");
+// int number = int.Parse(Console.ReadLine());
 
-if (number % 2 == 0) {
-    Console.WriteLine("Число чётное");
-} else {
+// if (number % 2 == 0) {
+//     Console.WriteLine("Число чётное");
+// } else {
     
-    Console.WriteLine("Число нечётное");
-}
+//     Console.WriteLine("Число нечётное");
+// }
 
 
 // ЗАДАЧА Б
+Console.WriteLine();
+Console.WriteLine("Оценка");
+
+Console.Write("Введите оценку (2-5): ");
+int grade = int.Parse(Console.ReadLine());
+
+if (grade == 5) {
+    Console.WriteLine("Отлично");
+} else if (grade == 4) {
+    Console.WriteLine("Хорошо");
+} else if (grade == 3) {
+    Console.WriteLine("Удовлетворительно");
+} else if (grade == 2) {
+    Console.WriteLine("Неудовлетворительно");
+} else {
+    Console.WriteLine("Неверная оценка");
+}
+
