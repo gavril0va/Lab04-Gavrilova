@@ -14,15 +14,24 @@
 // }
 
 
-int age = 100;
-if (age < 13) {
-    Console.WriteLine("Ребёнок");
-} else if (age < 18) {
-    Console.WriteLine("Подросток");
-} else if (age < 60) {
-    Console.WriteLine("Взрослый");
+// int age = 100;
+// if (age < 13) {
+//     Console.WriteLine("Ребёнок");
+// } else if (age < 18) {
+//     Console.WriteLine("Подросток");
+// } else if (age < 60) {
+//     Console.WriteLine("Взрослый");
+// } else {
+//     Console.WriteLine("Пенсионер");
+// }
+
+
+int age = 16;
+double height = 1.55;
+bool hasAdult = true;
+
+if (age >= 14 && (height >= 1.5 || hasAdult)) {
+    Console.WriteLine("Можно кататься");
 } else {
-    Console.WriteLine("Пенсионер");
+    Console.WriteLine("Пока нельзя");
 }
-
-
